@@ -1,0 +1,145 @@
+.profile-name-div
+{
+    padding-left:10px;
+}
+@media(min-width:1370px)
+{  
+.side-bar-div
+{
+    width:240px;
+    height: 100%;
+    left:0;
+    top:0;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+.text-logo-div {
+width:100%;
+}
+.options-logo-div
+{
+    margin-top:30px;
+    width:240px;
+margin-bottom: 50px;
+}
+.instagram-logo-div {
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+    .instagram-text
+{
+    max-width: 150px;
+    margin:40px 20px 0px 25px; 
+}
+.extra-logo-div
+{
+    width:240px;
+}
+.sidebar-img
+{
+    width:23px;
+    border-radius: 50%;
+    margin-right:16px;
+}
+.sidebar-options-div
+{
+ border-radius: 5px;   
+ padding:10px 10px;
+    margin:10px 10px;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+}
+.sidebar-options-div:hover
+{
+background-color: rgba(255,255,255,0.2);
+}
+.sidebar-options-div .options-logo-div{
+    display: flex;
+    flex-direction: row;
+}
+}
+@media (max-width: 1370px)
+{
+    .side-bar-div
+{
+    width:60px;
+    height: 100%;
+    left:0;
+    top:0;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left-style: solid;
+    border-left-color:white;
+}
+
+.instagram-text-div
+{
+    transition: 1s;
+display:none;
+}
+.instagram-logo-div
+{
+    padding-top:30px;
+    padding-left:10px;
+    display: block;
+    width: 40px;
+}
+.instagram-logo
+{
+width:28px;
+transition:1s;
+}
+.options-logo-div
+{
+    margin-top:30px;
+    width:40px;
+margin-bottom: 50px;
+}
+.extra-logo-div
+{
+    display: flex;
+    flex-direction: column;
+    width:40px;
+}
+.home-options
+{
+    display: none;
+}
+.sidebar-img
+{
+    width:23px;
+    border-radius: 50%;
+}
+.sidebar-options-div
+{
+    width:40px;
+ border-radius: 5px;   
+ padding:10px 10px;
+ padding-right: 0px;
+ /* padding-left: 15px; */
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+}
+.sidebar-options-div:hover
+{
+background-color: rgba(255,255,255,0.2);
+}
+.sidebar-options-div .options-logo-div{
+    display: flex;
+    flex-direction: row;
+}
+}
+@media (max-width:830px)
+{
+    .side-bar-div
+    {
+        display: none;
+    }
+}

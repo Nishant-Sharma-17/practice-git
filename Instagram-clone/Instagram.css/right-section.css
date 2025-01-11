@@ -1,0 +1,75 @@
+.right-div
+{
+    height: 100vh;
+    background-color: black;
+    position: absolute;
+    width:360px;
+    right:0;
+    top:0;
+}
+.user-acc-div,.suggested-div
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px 5px;
+}
+.prof-div
+{
+    display: flex;
+    align-items: center;
+}
+.suggested-div
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.switch-profile-div
+{
+    color:rgb(82, 130, 252);
+    background-color: black;
+    border:none;
+}
+.suggestions .prof1-div
+{
+    display:flex;
+    justify-content: center;
+    max-width: 360px;
+}
+.suggestions .prof1-div .profile-imgs
+{
+    max-width: 90px;
+}
+.suggestions .prof1-div .name-div
+{
+    padding-top:20px;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    overflow: visible;
+}
+.followed-by-div
+{
+    max-width: 260px;
+    color:grey;
+    height:17px;
+    overflow: hidden;
+}
+.about-div
+{
+    margin-top:40px;
+    color:grey;
+    font-weight: 100;
+    font-size: 14px;
+}
+.meta
+{
+    margin-top: 20px;
+}
+@media (max-width:1150px)
+{
+    .right-div
+    {
+        display:none;
+    }
+}
